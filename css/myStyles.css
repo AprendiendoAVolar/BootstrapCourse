@@ -34,6 +34,10 @@ body{
     z-index:0;
 }
 
+.navbar-form > div >label{
+    color: whitesmoke;
+}
+
 .navbar-inverse {
     background: #303F9F;
 }
