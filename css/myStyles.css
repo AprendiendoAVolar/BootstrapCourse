@@ -34,6 +34,10 @@ body {
     z-index: 0;
 }
 
+a{
+    cursor:pointer;
+}
+
 .navbar-form > div > label {
     color: whitesmoke;
 }
