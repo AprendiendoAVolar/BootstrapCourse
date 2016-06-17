@@ -280,6 +280,13 @@
                     <span class="glyphicon glyphicon-chevron-right"></span>
                     <span class="sr-only">Next</span>
                 </a>
+
+                <div class="btn-group" id="carouselButtons">
+                    <button id="carousel-pause" class="btn btn-danger btn-xs"><span
+                            class="glyphicon glyphicon-pause"></span></button>
+                    <button id="carousel-play" class="btn btn-danger btn-xs"><span
+                            class="glyphicon glyphicon-play"></span></button>
+                </div>
             </div>
         </div>
 
@@ -430,6 +437,15 @@
         /*Activa los tooltips de JQuery*/
         $('[data-toggle="popover"]').popover();
         /*Activa los popover de JQuery*/
+        $("#carousel").carousel({interval:2000});
+
+        $("#carousel-pause").click(function(){
+           $("#carousel").carousel('pause');
+        });
+
+        $("#carousel-play").click(function(){
+            $("#carousel").carousel('cycle');
+        })
     });
 </script>
 </body>
