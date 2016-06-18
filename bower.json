@@ -1,0 +1,25 @@
+{
+  "name": "BootstrapCourse",
+  "homepage": "https://github.com/AprendiendoAVolar/BootstrapCourse",
+  "authors": [
+    "Richard <ricardofazzi007@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "keywords": [
+    "Bootstrap",
+    "Course"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3"
+  }
+}
